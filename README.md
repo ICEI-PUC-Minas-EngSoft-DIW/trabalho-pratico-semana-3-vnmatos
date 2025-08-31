@@ -21,4 +21,4 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Print da home-page criada
 
-![print ferrmenta desenvolverdor](public/images/HomePage.png)
+![print ferrmenta desenvolverdor](public/images/HomePage2.png)
