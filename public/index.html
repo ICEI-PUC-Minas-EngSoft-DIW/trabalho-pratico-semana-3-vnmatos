@@ -8,7 +8,7 @@
 </head>
 <body>
     <main>
-        <div class="cabeca">
+    <div class="cabeca">
         <header>
             <h1>Pé na Estrada!</h1>
         <nav>
@@ -17,13 +17,24 @@
         <a href="jogadores.hmtl">Destino</a>
         <a href="uniforme.html">Login</a>
         </nav>
+        
+        <div id="buscar">
+            <form action="/resultado-da-pesquisa" method="get">
+            <label for="pesquisa"></label>
+            <input type="search" id="pesquisa" name="q" placeholder="Selecione seu destino...">
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+        
     </header>
 </div>
+
     
     <div class="sobre">
         <section class="um">
-
-        <h2>Pé na Estrada: O que somos?</h2>
+         <article>
+            
+            <h2>Pé na Estrada: O que somos?</h2>
 
         <p>Seja você um viajante de primeira viagem ou um explorador experiente, nosso site foi feito para facilitar cada etapa do seu planejamento. Basta selecionar o país ou cidade que você quer conhecer, e nós te mostramos as melhores opções de passeios, restaurantes, atrações culturais, experiências locais e muito mais.
 
@@ -32,6 +43,8 @@
         Explore com praticidade, descubra com confiança e viaje com muito mais informação. Seu próximo destino começa aqui!</p>
 
         <img src="images/turistas.jpg" alt="casal turistando" >
+        
+    </article>   
         
 
     </section>
