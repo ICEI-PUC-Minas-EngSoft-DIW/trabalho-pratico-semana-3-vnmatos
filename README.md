@@ -8,15 +8,15 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Vinicius Matos
+- Matricula: 898073
+- Proposta de projeto escolhida: Lugares e Experiências
+- Breve descrição sobre seu projeto: Um site onde as pessoas podem pesquisar seus destinos e com isso saber todos os pontos turísticos, restaurantes famosos , atrações, etc... Como se fosse um mapa.
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
+![print ferrmenta desenvolverdor](public/images/WireFrame.png)
 
 
 ## Print da home-page criada
