@@ -4,36 +4,198 @@
     font-family:'Chewy'; src: url(fonts/Chewy-Regular.ttf);
  } 
 
- body {
+html{
+    height: 100%;
+}
+
+
+
+ body,ul,li,p {
     margin: 0px;
     padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
  }
 
  .cabeca {
+   
     background-color: darkolivegreen;
     padding: 20px;
     text-align: center;
+    height: 200px;
+
  }
 
- .sobre {
-    padding: 20px;
+
+#buscar{
+    display: flex;
+    justify-content: end;
+}
+
+ header a {
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
     
  }
+
+
+
+ header a:hover {
+    background-color: white;
+    color: darkolivegreen;
+ }
+
+ 
+
+ .sobre {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 30px;
+    padding: 20px;
+    background-color: rgb(255, 252, 241);
+    height: 600px;
+
+ }
+
+
+
+ .texto1{
+    width: 900px;
+    
+ }
+
+.texto1 p{
+    font-size: 20px;
+}
+.texto1 h2{
+    font-size: 50px;
+}
+
+
+
+ img {
+    display: block;
+ }
+ 
+ .sobre img{
+    
+    width: 600px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    max-height: 400px;
+    justify-content: center;
+    
+ }
+
+
+
+
+
+.footer {
+    background-color: grey;
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+ @media screen and (min-width:332px) and (max-width:600px){
+                            .cabeca{
+                                        background-color: rgb(255, 174, 0);
+                                        height: 200px;
+                                    }
+                                    
+
+                                    #buscar{
+                                    display: flex;
+                                    justify-content: center;
+                                }   
+
+                                .sobre {
+                                        display: flex;
+                                        justify-content: center;
+                                        flex-wrap: wrap;
+                                        gap: 30px;
+                                        padding: 20px;
+                                        background-color: rgb(255, 252, 241);
+                                        }
+                                
+                                        .sobre img{
+                                            margin: 20px;
+                                            max-width: 350px;
+                                            margin: 0px auto;
+                                            max-height: 400px;
+                                }
+                        }
 
 
 
  @media screen and (min-width:601px) and (max-width: 1024px) {
 
-    .cabeca{
-        background-color: greenyellow;
-        height: 100px;
-    }
-    
-    
- } 
+                        .cabeca{
+                            background-color: rgb(47, 213, 255);
+                            height: 200px;
+                        }
 
- @media screen and (min-width:1025px) and (max-width:1200px){
-    .cabeca{
-        background-color: seagreen;
-    }
+                        #buscar{
+                        display: flex;
+                        justify-content: center;
+                        
+                    }
+
+                    .sobre {
+                                    display: flex;
+                                    justify-content: center;
+                                    flex-wrap: wrap;
+                                    gap: 30px;
+                                    padding: 20px;
+                                    background-color: rgb(255, 252, 241);
+                                    }
+                            
+                                    .sobre img{
+                        
+                                        max-width: 500px;
+                                        margin: 0px auto;
+                                        max-height: 400px;
+                            }
+                    } 
+
+
+ @media screen and (min-width:1025px) and (max-width:1100px){
+                    .cabeca{
+                        background-color: seagreen;
+                        }
+
+                        #buscar{
+                        display: flex;
+                        justify-content: center;
+                        }
+
+
+                .sobre {
+                                display: flex;
+                                justify-content: space-between;
+                                flex-wrap: wrap;
+                                gap: 30px;
+                                padding: 20px;
+                                background-color: rgb(255, 252, 241);
+                                }
+                        
+                                .sobre img{
+                    
+                                    max-width: 350px;
+                                    margin: 0px auto;
+                                    max-height: 400px;
+                        }
+       
  }
