@@ -4,3 +4,36 @@
     font-family:'Chewy'; src: url(fonts/Chewy-Regular.ttf);
  } 
 
+ body {
+    margin: 0px;
+    padding: 0px;
+ }
+
+ .cabeca {
+    background-color: darkolivegreen;
+    padding: 20px;
+    text-align: center;
+ }
+
+ .sobre {
+    padding: 20px;
+    
+ }
+
+
+
+ @media screen and (min-width:601px) and (max-width: 1024px) {
+
+    .cabeca{
+        background-color: greenyellow;
+        height: 100px;
+    }
+    
+    
+ } 
+
+ @media screen and (min-width:1025px) and (max-width:1200px){
+    .cabeca{
+        background-color: seagreen;
+    }
+ }
