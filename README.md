@@ -22,3 +22,11 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 ## Print da home-page criada
 
 ![print ferrmenta desenvolverdor](public/images/HomePage2.png)
+
+## Print projeto antes do BootStrap
+
+![print antes bootstrap](public/images/v1%20sem%20bootstrap.png)
+
+## Print projeto com do BootStrap
+
+![print com bootstrap](public/images/V2%20com%20bootstrap.png)
