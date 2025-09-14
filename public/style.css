@@ -147,7 +147,7 @@ footer {
 
  @media screen and (min-width:332px) and (max-width:600px){
                             .cabeca{
-                                        background-color: rgb(255, 174, 0);
+                                        background-color: #253D5B(255, 174, 0);
                                         height: 200px;
                                         padding: 30px 20px 30px 20px;
                                     }
@@ -207,8 +207,9 @@ footer {
  @media screen and (min-width:601px) and (max-width: 1024px) {
 
                         .cabeca{
-                            background-color: rgb(47, 213, 255);
-                            height: 200px;
+                            background-color: #253D5B(255, 174, 0);
+                                        height: 200px;
+                                        padding: 30px 20px 30px 20px;
                         }
 
                         #buscar{
@@ -238,19 +239,21 @@ footer {
                                             height: 50%;
                                             display: flex;
                                             justify-content: center;
-                                            padding: 5px;
+                                             padding: 10px 0px 10px 0px;
                                         }
                     } 
 
 
  @media screen and (min-width:1025px) and (max-width:1100px){
                     .cabeca{
-                        background-color: seagreen;
+                        background-color: #253D5B;
+                        git padding: 30px 20px 30px 20px;
                         }
 
                         #buscar{
                         display: flex;
                         justify-content: center;
+                         padding: 10px 0px 10px 0px;
                         }
 
 
