@@ -30,3 +30,5 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 ## Print projeto com do BootStrap
 
 ![print com bootstrap](public/images/V2%20com%20bootstrap.png)
+![print com bootstrap](public/images/ipad%20responsivo.png)
+![print com bootstrap](public/images/celular%20responsivo.png)
